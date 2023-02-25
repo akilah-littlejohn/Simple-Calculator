@@ -9,7 +9,6 @@ import { bootstrapApplication } from '@angular/platform-browser';
   imports: [CommonModule],
   template: `
   <main class="calculator">
-  <h1>Calculator</h1>
 
   <h1 class="display">{{ display }}</h1>
 
