@@ -8,8 +8,8 @@ import { bootstrapApplication } from '@angular/platform-browser';
   standalone: true,
   imports: [CommonModule],
   template: `
-  <div class="calculator">
-  <h2>Calculator</h2>
+  <main class="calculator">
+  <h1>Calculator</h1>
 
   <h1 class="display">{{ display }}</h1>
 
@@ -31,7 +31,7 @@ import { bootstrapApplication } from '@angular/platform-browser';
     <button (click)="clear()">C</button>
     <button (click)="calculate()">=</button>
 </section>
-
+</main>
   `,
 })
 export class App {
