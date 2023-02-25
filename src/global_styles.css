@@ -1,6 +1,9 @@
 /* Add application styles & imports to this file! */
+h1 {
+  font-family: 'Audiowide';
+}
 .calculator {
-  width: 200px;
+  width: 300px;
   margin: 0 auto;
   text-align: center;
 }
@@ -16,6 +19,7 @@
 .buttons button {
   margin: 5px;
   padding: 10px 20px;
+  font-family: 'Audiowide';
   font-size: 18px;
   border: none;
   border-radius: 5px;

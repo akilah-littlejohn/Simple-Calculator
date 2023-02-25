@@ -11,9 +11,9 @@ import { bootstrapApplication } from '@angular/platform-browser';
   <div class="calculator">
   <h2>Calculator</h2>
 
-  <div class="display">{{ display }}</div>
+  <h1 class="display">{{ display }}</h1>
 
-  <div class="buttons">
+  <section class="buttons">
     <button (click)="numberClick(1)">1</button>
     <button (click)="numberClick(2)">2</button>
     <button (click)="numberClick(3)">3</button>
@@ -30,8 +30,7 @@ import { bootstrapApplication } from '@angular/platform-browser';
     <button (click)="operatorClick('/')">/</button>
     <button (click)="clear()">C</button>
     <button (click)="calculate()">=</button>
-  </div>
-</div>
+</section>
 
   `,
 })
